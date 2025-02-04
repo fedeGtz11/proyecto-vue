@@ -1,3 +1,9 @@
+## Autor
+
+- Nombre: Federico Gutierrez aKa Tiocosa11
+- Email: 23311027@uthermosillo.edu.mx
+- GitHub: [@fedeGtz11](https://github.com/fedeGtz11)
+
 # .
 
 This template should help get you started developing with Vue 3 in Vite.
