@@ -9,14 +9,14 @@
     <li><router-link to="/registrar">Registrar</router-link></li>
     <li><router-link to="/calcular">Calcular</router-link></li>
         
-    </ul>
-    
+</ul>    
 </div>
 </template>
 <script setup>
-import {  useRegistrarStore} from '@/modules/registro/stores/registrarStore';
+import {  useRegistrarStore } from '@/modules/registro/stores/registrarStore';
 
 const registrarStore = useRegistrarStore();
+
 </script>
 <style>
 
@@ -24,4 +24,5 @@ const registrarStore = useRegistrarStore();
     width: 200px;
     background-color: #f0f0f0;
     padding: 20px;
-}</style>
+}
+</style>

@@ -9,7 +9,7 @@ import { defineProps, ref, watch } from 'vue';
 const props = defineProps(['mensaje']);
 const mensajeRecibido = ref(props.mensaje);
 watch(()=>props.mensaje,(newValue)=>{
-    mensajeRecibido = newValue;
+    mensajeRecibido.value = newValue;
 })
 </script>
 <style scoped>

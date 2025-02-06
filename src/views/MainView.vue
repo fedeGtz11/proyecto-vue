@@ -1,16 +1,13 @@
 <template>
 <Header :mensaje="texto"></Header>
-<div class ="container">
-    <SideBar></SideBar>
-    <div class="content">
-        <input type="texto" v-model="texto">
-        {{ texto }}
-        <router-view></router-view>
-
+    <div class ="container">
+        <SideBar></SideBar>
+        <div class="content">
+            <input type="texto" v-model="texto">
+            {{ texto }}
+            <router-view></router-view>
+        </div>
     </div>
-
-
-</div>
 </template>
 
 <script setup>

@@ -24,6 +24,7 @@
 import {Form, Field, ErrorMessage} from 'vee-validate';
 import {schema} from '../schemas/validationSchema';
 import { useRegistrarStore } from '../stores/registrarStore';
+import {ref} from 'vue';
 
 const registrarStore = useRegistrarStore();
 
